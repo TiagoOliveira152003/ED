@@ -1,0 +1,114 @@
+{
+  "gameConfiguration" : {
+    "config" : {
+      "experiencePerLevel" : 5,
+      "experienceIncreaseFactor" : 10,
+      "energyIncreasePercent" : 2
+    }
+  },
+  "locals" : {
+    "locals" : [ {
+      "type" : "Portal",
+      "id" : 1,
+      "name" : "Portal 1",
+      "coordinates" : {
+        "latitude" : 25.0,
+        "longitude" : 15.0
+      },
+      "gameSettings" : {
+        "energy" : 0,
+        "maxEnergy" : 100,
+        "ownership" : {
+          "player" : "null"
+        }
+      }
+    }, {
+      "type" : "Connector",
+      "id" : 2,
+      "coordinates" : {
+        "latitude" : 40.0,
+        "longitude" : 30.0
+      },
+      "gameSettings" : {
+        "energy" : 50,
+        "cooldown" : 5
+      }
+    }, {
+      "type" : "Portal",
+      "id" : 3,
+      "name" : "Portal 2",
+      "coordinates" : {
+        "latitude" : 240.0,
+        "longitude" : 177.0
+      },
+      "gameSettings" : {
+        "energy" : 0,
+        "maxEnergy" : 100,
+        "ownership" : {
+          "player" : "null"
+        }
+      }
+    }, {
+      "type" : "Connector",
+      "id" : 4,
+      "coordinates" : {
+        "latitude" : 40.0,
+        "longitude" : 5.0
+      },
+      "gameSettings" : {
+        "energy" : 50,
+        "cooldown" : 5
+      }
+    }, {
+      "type" : "Portal",
+      "id" : 1414,
+      "name" : "Jacqueline Kennedy Onassis Reservoir",
+      "coordinates" : {
+        "latitude" : 40.7656918,
+        "longitude" : -73.9737489
+      },
+      "gameSettings" : {
+        "energy" : 180,
+        "maxEnergy" : 200,
+        "ownership" : {
+          "player" : "LoboMau"
+        }
+      }
+    }, {
+      "type" : "Connector",
+      "id" : 5212,
+      "coordinates" : {
+        "latitude" : 40.7697989,
+        "longitude" : -73.9723702
+      },
+      "gameSettings" : {
+        "energy" : 110,
+        "cooldown" : 3
+      }
+    } ]
+  },
+  "routes" : [ {
+    "from" : 1,
+    "to" : 2,
+    "distance" : 21.213203435596427
+  }, {
+    "from" : 1,
+    "to" : 4,
+    "distance" : 18.027756377319946
+  }, {
+    "from" : 2,
+    "to" : 3,
+    "distance" : 248.21160327430303
+  } ],
+  "players" : [ {
+    "name" : "KIKA",
+    "team" : "Giants",
+    "level" : 0,
+    "currentEnergy" : 0
+  }, {
+    "name" : "KIKA2",
+    "team" : "Sparks",
+    "level" : 0,
+    "currentEnergy" : 0
+  } ]
+}

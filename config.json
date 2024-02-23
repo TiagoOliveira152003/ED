@@ -1,0 +1,9 @@
+{
+    "Config":[
+    {
+        "experiencePerLevel": 5,
+        "experienceIncreaseFactor": 10,
+        "energyIncreasePercent": 2
+    }
+    ]   
+}
